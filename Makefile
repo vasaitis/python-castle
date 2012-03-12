@@ -31,4 +31,4 @@ install: _libcastle.so libcastle.py __init__.py
 	mkdir -p $(DESTDIR)
 	install -m 0755 _libcastle.so $(DESTDIR)
 	install -m 0644 libcastle.py $(DESTDIR)
-	install -m 0644 __init__.so $(DESTDIR)
+	install -m 0644 __init__.py $(DESTDIR)
