@@ -27,7 +27,7 @@ make
 
 %install
 rm -rf %{buildroot}
-%define destdir %{python_sitearch}/castle
+%define destdir %{python_sitearch}/acunu
 DESTDIR=%{buildroot}/%{destdir} make install
 
 %clean
