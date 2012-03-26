@@ -1,4 +1,4 @@
-DESTDIR ?= /usr/lib/python2.6/site-packages/acunu
+DESTDIR ?= /usr/lib64/python2.6/site-packages/acunu
 SWIG ?= swig
 SWIGFLAGS += -verbose -debug-csymbols -debug-lsymbols -I/usr/include -builtin
 
